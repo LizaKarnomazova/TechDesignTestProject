@@ -7,7 +7,7 @@ public class ClickFX : MonoBehaviour
     public AudioSource FX;
     public AudioClip clickFX;
 
-    public void OnMouseDown()
+    public void ClickSound()
     {
         FX.PlayOneShot(clickFX);
     }
